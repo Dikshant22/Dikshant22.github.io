@@ -100,7 +100,10 @@ nav .menu-btn i{
         display: inline-block;
         margin-right: 50%;
     }
-    
+    .container2 div{
+        display: block;
+        max-width: 100%;
+    }
 } 
 
 .quote a:hover {
