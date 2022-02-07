@@ -66,16 +66,14 @@ nav .menu-btn i{
     display: none;
 }
 @media (max-width: 960px) {
-    nav ul{
-        position: fixed;
-        top: 15%;
-        left: 0;
-        height: 100vh;
-        width: 100%;
-        display: block;
-        text-align: center;
-        left: -100%;
-        transition: all 0.3s ease;
+    .nav-links{
+        position: absolute;
+        top: 10%;
+        right: -100%;
+        height: 50%;
+        background: white;
+        /* text-align: right; */
+        z-index: 2;
     }
     nav ul li{
         margin: 15% 0;
@@ -83,13 +81,17 @@ nav .menu-btn i{
     nav .menu-btn i{
         display: block;
     }
-    nav ul li a{
-        font-size: 20px;
-        display: block;
+    #click:checked ~ .nav-links{
+        right: 0%;
+        
     }
-    #click:checked ~ ul{
-        left: 0%;
-        background-color: white;
+    nav ul{
+        display: block;
+        padding: 20% 4% 4% 4%;
+        
+    }
+    nav ul li{
+        padding: 20% 0 0 0;
     }
     #click:checked ~ .menu-btn i:before{
         content: "\f00d";
@@ -98,10 +100,8 @@ nav .menu-btn i{
         display: inline-block;
         margin-right: 50%;
     }
-    /* /* .every-thing {
-        display: none;
-    } */
-} */
+    
+} 
 
 .quote a:hover {
     color: black;
@@ -340,6 +340,9 @@ ul {
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
+    }
+    .container2 {
+        display: inline;
     }
 }
 
