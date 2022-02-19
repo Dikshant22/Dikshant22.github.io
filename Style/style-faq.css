@@ -12,7 +12,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    /* padding: 0 5% 0 5%; */
+    padding: 0 5% 0 5%;
 }
 
 nav .quote a{
