@@ -65,7 +65,7 @@ nav ul li a:hover{
 .sub-menu{
     display: none;
     font-size: 20px;
-    margin: 1.5%;
+    margin: 1.1%;
     padding: 1% 0 1% 0;
 }
 .nav-links ul li:hover .sub-menu{
@@ -81,6 +81,12 @@ nav ul li a:hover{
 }
 #click{
     display: none;
+}
+.column2 {
+    display: inline-block;
+    height: auto;
+    width: 20%;
+    padding-bottom: 2%;
 }
 @media (max-width: 960px) {
     .nav-links{
@@ -120,7 +126,11 @@ nav ul li a:hover{
         display: block;
         max-width: 100%;
     }
-    
+    .nav-links ul li:hover .sub-menu{
+        display: block;
+        margin-left: -15%;
+        background:white;
+    }
 } 
 
 .quote a:hover {
@@ -370,4 +380,35 @@ ul {
 .bottom-footer{
     text-align: center;
     padding-top: 2%;
+}
+.center{
+    text-align: center;
+}
+.slider2 {
+    overflow: hidden;
+}
+
+.slider2 section {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 12s slider infinite;
+}
+
+.slider2 section .testomonial-1{
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider2 {
+    0% {
+        left: 0;
+    }
+    40% {
+        left: -100%;
+    }
+    80% {
+        left: -200%;
+    }
 }

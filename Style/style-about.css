@@ -69,7 +69,7 @@ nav .menu-btn i{
 .sub-menu{
     display: none;
     font-size: 20px;
-    margin: 1.5%;
+    margin: 1.1%;
     padding: 1% 0 1% 0;
 }
 .nav-links ul li:hover .sub-menu{
@@ -89,9 +89,9 @@ nav .menu-btn i{
 @media (max-width: 960px) {
     .nav-links{
         position: absolute;
-        top: 10%;
+        top: 15%;
         right: -100%;
-        height: 50%;
+        height: auto;
         background: white;
         /* text-align: right; */
         z-index: 2;
@@ -120,6 +120,11 @@ nav .menu-btn i{
     nav .quote a{
         display: inline-block;
         margin-right: 50%;
+    }
+    .nav-links ul li:hover .sub-menu{
+        display: block;
+        margin-left: -15%;
+        background:white;
     }
 } 
 

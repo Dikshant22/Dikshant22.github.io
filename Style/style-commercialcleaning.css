@@ -68,7 +68,7 @@ nav .menu-btn i{
 .sub-menu{
     display: none;
     font-size: 20px;
-    margin: 1.5%;
+    margin: 1.1%;
     padding: 1% 0 1% 0;
 
 }
@@ -124,6 +124,11 @@ nav .menu-btn i{
     nav .quote a{
         display: inline-block;
         margin-right: 50%;
+    }
+    .nav-links ul li:hover .sub-menu{
+        display: block;
+        margin-left: -15%;
+        background:white;
     }
 } 
 .image-overlay{

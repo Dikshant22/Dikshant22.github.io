@@ -5,7 +5,6 @@
     list-style: none;
     box-sizing: border-box;
 }
-
 nav{
     height: 80px;
     display: flex;
@@ -14,7 +13,6 @@ nav{
     text-align: center;
     padding: 0 5% 0 5%;
 }
-
 nav .quote a{
     margin-right: auto;
     background-color: rgb(34, 34, 177);
@@ -31,7 +29,6 @@ nav .logo{
 nav .logo img{
     height: auto;
     width: 80%;
-
 }
 nav ul{
     display: flex;
@@ -40,7 +37,6 @@ nav ul{
 nav ul li{
     margin: 0 10px;
 }
-
 nav ul li a{
     color: black;
     text-decoration: none;
@@ -61,20 +57,15 @@ nav .menu-btn i{
     margin-right: 10px;
     display: none;
 }
-
 #click{
     display: none;
 }
 .sub-menu{
     display: none;
     font-size: 20px;
-    margin: 1.5%;
+    margin: 1.1%;
     padding: 1% 0 1% 0;
-
 }
-/* .nav-links ul li{
-    transition: all 0.3s ease;
-} */
 .nav-links ul li:hover .sub-menu{
     display: inline-block;
     position: absolute;
@@ -82,7 +73,6 @@ nav .menu-btn i{
     color: black;
     z-index: 2;
     background:rgba(255,255,255, 0.3);
-    
 }
 .nav-links ul li:hover .sub-menu ul{
     display: block;
@@ -97,7 +87,6 @@ nav .menu-btn i{
         right: -100%;
         height: 50%;
         background: white;
-        /* text-align: right; */
         z-index: 2;
     }
     nav ul li{
@@ -108,12 +97,10 @@ nav .menu-btn i{
     }
     #click:checked ~ .nav-links{
         right: 0%;
-        
     }
     nav ul{
         display: block;
         padding: 20% 4% 4% 4%;
-        
     }
     nav ul li{
         padding: 20% 0 0 0;
@@ -124,6 +111,11 @@ nav .menu-btn i{
     nav .quote a{
         display: inline-block;
         margin-right: 50%;
+    }
+    .nav-links ul li:hover .sub-menu{
+        display: block;
+        margin-left: -15%;
+        background:white;
     }
 } 
 .image-overlay{
@@ -143,7 +135,6 @@ nav .menu-btn i{
     transform: translate(-50%, -50%);
     transform: translateX(100rem);
     animation: slideIn .5s forwards;
-    
 }
 .centered p{
     font-size: 100px;
@@ -152,9 +143,6 @@ nav .menu-btn i{
     color: white;
     font-weight: 500;
 }
-/* .animation{
-    transform: translateX(-100rem);
-} */
 @keyframes slideIn{
     from{
 
