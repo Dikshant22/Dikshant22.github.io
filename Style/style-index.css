@@ -165,7 +165,27 @@ nav ul li a:hover{
         left: -200%;
     }
 }
-
+.image-overlay{
+    max-height: 80%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.responsive{
+    height: auto;
+    width: 100%;
+}
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.centered p{
+    font-size: 50px;
+    font-family: serif;
+    text-transform: uppercase;
+}
 .word-design3 {
     text-transform: uppercase;
     font-size: 30px;
@@ -275,20 +295,20 @@ nav ul li a:hover{
 
 .final-container {
     background-color: rgb(24, 24, 156);
-
-
+    width: 100%;
+    height: auto;
 }
 
 .slider2, .img11, .img12{
     background-color: rgb(24, 24, 156);
 }
 
-.img11 img {
-    padding-left: 30%;
+.img11{
+    padding-left: 28%;
     background-color: rgb(24, 24, 156) ;
 }
 
-.img12 img {
+.img12{
     padding-left: 70%;
     background-color: rgb(24, 24, 156) ;
 }
@@ -411,4 +431,11 @@ ul {
     80% {
         left: -200%;
     }
+}
+.content{
+    padding: 0 30%;
+
+}
+.img-center{
+    text-align: center;
 }
