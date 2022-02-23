@@ -99,6 +99,7 @@ nav .menu-btn i{
         background: white;
         /* text-align: right; */
         z-index: 2;
+        display: none;
     }
     nav ul li{
         margin: 15% 0;
@@ -108,7 +109,7 @@ nav .menu-btn i{
     }
     #click:checked ~ .nav-links{
         right: 0%;
-        
+        display: block;
     }
     nav ul{
         display: block;
