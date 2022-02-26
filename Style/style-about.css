@@ -107,11 +107,11 @@ nav .menu-btn i{
     }
     nav ul{
         display: block;
-        padding: 20% 4% 4% 4%;
+        padding: 0% 4% 4% 4%;
         
     }
     nav ul li{
-        padding: 20% 0 0 0;
+        padding: 10% 0 0 0;
     }
     #click:checked ~ .menu-btn i:before{
         content: "\f00d";

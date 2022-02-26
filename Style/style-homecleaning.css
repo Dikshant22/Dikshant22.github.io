@@ -100,10 +100,10 @@ nav .menu-btn i{
     }
     nav ul{
         display: block;
-        padding: 20% 4% 4% 4%;
+        padding: 0% 4% 4% 4%;
     }
     nav ul li{
-        padding: 20% 0 0 0;
+        padding: 10% 0 0 0;
     }
     #click:checked ~ .menu-btn i:before{
         content: "\f00d";
@@ -138,6 +138,16 @@ nav .menu-btn i{
     font-size: 50px;
     font-family: serif;
     text-transform: uppercase;
+}
+@media (max-width: 600px){
+    .centered p{
+        font-size: 35px;
+    }
+}
+@media (max-width: 300px){
+    .centered p{
+        font-size: 25px;
+    }
 }
 .column {
     display: inline-block;

@@ -79,7 +79,9 @@ nav .menu-btn i{
 .quote a:hover {
     color: black;
 }
+ 
 @media (max-width: 960px) {
+    
     .nav-links{
         position: absolute;
         top: 9.5%;
@@ -100,10 +102,10 @@ nav .menu-btn i{
     }
     nav ul{
         display: block;
-        padding: 20% 4% 4% 4%;
+        padding: 0% 4% 4% 4%;
     }
     nav ul li{
-        padding: 20% 0 0 0;
+        padding: 10% 0 0 0;
     }
     #click:checked ~ .menu-btn i:before{
         content: "\f00d";
@@ -117,6 +119,7 @@ nav .menu-btn i{
         margin-left: -15%;
         background:white;
     }
+    
 } 
 .image-overlay{
     max-height: 80%;
@@ -139,25 +142,35 @@ nav .menu-btn i{
     font-family: serif;
     text-transform: uppercase;
 }
+@media (max-width: 600px){
+    .centered p{
+        font-size: 35px;
+    }
+}
+@media (max-width: 300px){
+    .centered p{
+        font-size: 25px;
+    }
+}
 .everything{
-    margin: 1% 15% 1% 15%;
+    margin: 1% 14% 1% 14%;
 }
 h2{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 500;
+    padding: 5% 5% 5% 0;
 }
 .form p{
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
-    padding: 3% 0%;
+    padding: 5% 0% 10% 0%;
 }
-.container2 form .user-details{
+/* .container2 form .user-details{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 form .user-details .input-box{
-    /* width: calc(100% / 2 - 2opx); */
     margin: 4% 0 1% 0;
 }
 .user-details .input-box input {
@@ -172,7 +185,8 @@ form .user-details .input-box{
     
 }
 .input-box textarea{
-    width: 211%;
+    max-width: 211%;
+    min-width: 211%;
     height: 200px;
 }
 .input-box textarea{
@@ -182,12 +196,13 @@ form .user-details .input-box{
     outline: none;
     border-radius: 5px;
     border: 1px solid grey;
-}
+} */
 .container2{
-    max-width: 420px;
+    max-width: 450px;
     width: 100%;
     height: auto;
 }
+/*
 .button-area{
     padding: 3% 3% 0% 0%;
 }
@@ -204,6 +219,7 @@ form .user-details .input-box{
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
+
 @media (max-width:1170px){
     .container2 form .user-details{
         display: inline-block
@@ -215,12 +231,93 @@ form .user-details .input-box{
         padding-top: 10%;
         margin-left: -25%;
     }
+} */
+form .dbl-field{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+.dbl-field .field{
+    height: 40px;
+}
+
+form .field input,
+form .message textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-family: sans-serif;
+}
+form .message{
+    position: relative;
+}
+form .message textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 180px;
+    max-height: 300px;
+    padding: 15px 20px 0 10px;
+}
+form .button-area{
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+.button-area button{
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 13px 25px;
+    background: #0d6efd;
+}
+@media(max-width: 960px){
+    .wrapper header, .wrapper p{
+        text-align: center;
+    }
+    form .dbl-field{
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+    .dbl-field .field{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    form .message textarea{
+        resize: none;
+    }
+    form .button-area{
+        flex-direction: column;
+    }
+    .button-area button{
+        width: 100%;
+    }
+    .button-area span{
+        text-align: center;
+        margin: 20px 0;
+    }
 }
 .main{
     display: inline-block;
 }
 .map{
     padding-left: 25%;
+}
+@media (max-width:1273px){
+    .map{
+        padding-top: 10%;
+        margin-left: -25%;
+    }
+} 
+@media(max-width: 660px){
+    .google-map iframe{
+        width: 100%;
+    }
 }
 .txt-content{
     padding: 4% 0;
