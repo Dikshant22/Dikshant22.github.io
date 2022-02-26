@@ -89,12 +89,12 @@ nav .menu-btn i{
 @media (max-width: 960px) {
     .nav-links{
         position: absolute;
-        top: 15%;
+        top: 9.5%;
         right: -100%;
-        height: auto;
         background: white;
         display: none;
         z-index: 2;
+        display: none;
     }
     nav ul li{
         margin: 15% 0;

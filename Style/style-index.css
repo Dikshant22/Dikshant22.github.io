@@ -92,9 +92,8 @@ nav ul li a:hover{
 @media (max-width: 960px) {
     .nav-links{
         position: absolute;
-        top: 10%;
+        top: 9.5%;
         right: -100%;
-        height: 50%;
         background: white;
         z-index: 2;
         display: none;
@@ -132,6 +131,12 @@ nav ul li a:hover{
         display: block;
         margin-left: -15%;
         background:white;
+    }
+    .text-overlay p{
+        padding-bottom: 10%;
+    }
+    .text-msg p{
+        padding: 1% 0 5%;
     }
 } 
 
@@ -173,6 +178,10 @@ nav ul li a:hover{
     text-align: center;
     padding-bottom: 2%;
 }
+.text-overlay p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
 .responsive{
     height: auto;
     width: 100%;
@@ -190,7 +199,7 @@ nav ul li a:hover{
 }
 .word-design3 {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     font-family: serif;
     padding-bottom: 2% ;
@@ -272,17 +281,26 @@ nav ul li a:hover{
 .text-msg {
     text-align: center;
 }
+.text-msg p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
 
 .container2 {
     overflow: hidden;
     padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10%;
 }
 
 .column2 {
     display: inline-block;
     height: auto;
-    width: 20%;
     padding-bottom: 2%;
+    width: 100%;
+    padding: 1%;
 }
 
 .final-container p{
