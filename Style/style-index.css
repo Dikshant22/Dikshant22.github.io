@@ -27,10 +27,11 @@ nav .quote a{
 }
 nav .logo{
     position: relative;
+    width: 400px;
 }
 nav .logo img{
     height: auto;
-    width: 80%;
+    width: 100%;
 
 }
 nav ul{
