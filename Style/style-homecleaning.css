@@ -82,7 +82,7 @@ nav .menu-btn i{
 @media (max-width: 960px) {
     .nav-links{
         position: absolute;
-        top: 9.5%;
+        top: 9%;
         right: -100%;
         background: white;
         z-index: 2;
@@ -150,36 +150,53 @@ nav .menu-btn i{
     }
 }
 .column {
-    display: inline-block;
-    padding: 3%;
+    flex: 33.33%;
+    margin: 1%;
 }
-  
-.container {
-     overflow: hidden;
+.logo-text{
+    flex: 20%;
+    padding: 2% 2% ;
+}
+.img{
+    height: 35%;
+}
+.two{
+    padding-top: 8%;
 
-     text-align: center;
+}
+.three{
+    padding-top: 13%;
+}
+.container {
+    overflow: hidden;
+    text-align: center;
+}
+.container2, .four-img {
+    margin: 1% 10%;
+    display: flex;
 }
   
-.column a img {
-      max-width: 90%;
-      height: auto;
+.column img {
+    text-align: center;
 }
 h1{
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 550;
     text-transform: uppercase;
-    font-family: serif;
+    font-family: sans-serif;
+    padding: 10% 5% 2% 0%;
 }
 .text-overlay ul li{
-    word-spacing: 1px;
-    font-size: 25px;
+    font-size: 18px;
     padding: 1px;
+    list-style: outside;
+    margin-left: 4%;
 }
 .logo{
     text-align: center;
 }
 .logo h2{
-    font-size: 50px;
+    font-size: 45px;
     font-family: serif;
     word-spacing: 2px;
     padding: 2% 2% 4% 2%;
@@ -187,25 +204,27 @@ h1{
     font-weight: 500;
 }
 .logo-1{
-    margin: 0 15% 0 15%;
+    margin: 0 15%;
 }
 .logo-text p{
     padding-top: 5%;
     font-family: sans-serif;
 }
-.logo-text{
-    display: inline-block;
-    padding: 0% 10% 5% 5%;
-    height: auto;
-    width:40%;
-}
 @media(max-width: 500px){
-    .logo-text{
-        display: grid;
-        padding-left: 30%;
+    .logo-1{
+        margin: 0;
+    }
+    .four-img, .container2{
+        display: block;
     }
     .centered p{
         font-size: 30px;
+    }
+    .img, h1 {
+        text-align: center;
+    }
+    .container2{
+        padding: 5% 0% 10%;
     }
 }
 .quote1{
@@ -275,7 +294,7 @@ ul {
     background-color: red;
     height: 2px;
     box-sizing: border-box;
-    width: 50px;
+    width: 70%;
 }
 
 .footer-col ul li {

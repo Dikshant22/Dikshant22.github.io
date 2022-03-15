@@ -82,16 +82,16 @@ nav ul li a:hover{
 #click{
     display: none;
 }
-.column2 {
+/* .column2 {
     display: inline-block;
     height: auto;
     width: 20%;
     padding-bottom: 2%;
-}
+} */
 @media (max-width: 960px) {
     .nav-links{
         position: absolute;
-        top: 9.5%;
+        top: 9%;
         right: -100%;
         background: white;
         z-index: 2;
@@ -122,7 +122,7 @@ nav ul li a:hover{
         display: inline-block;
         margin-right: 50%;
     }
-    .container2 div{
+    .margin div{
         display: block;
         max-width: 100%;
     }
@@ -134,9 +134,9 @@ nav ul li a:hover{
     .text-overlay p{
         padding-bottom: 10%;
     }
-    .text-msg p{
+    /* .text-msg p{
         padding: 1% 0 5%;
-    }
+    } */
 } 
 
 .quote a:hover {
@@ -152,7 +152,7 @@ nav ul li a:hover{
     width: 500%;
     margin: 0;
     left: 0;
-    animation: 12s slider infinite;
+    animation: 20s slider infinite;
 }
 
 .slider figure img{
@@ -276,31 +276,49 @@ nav ul li a:hover{
     font-family: sans-serif;
     padding-bottom: 0.5%;
 }
-
-.text-msg {
+.margin{
+    margin: 1% 10%;
+    display: flex;
+}
+.img{
     text-align: center;
 }
-.text-msg p{
+.context{
+    flex: 20%;
+}
+.context{
+    margin: 1%;
+    padding: 2% 0;
+}
+.context p{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 2%;
+}
+/* .text-msg {
+    text-align: center;
+} */
+/* .text-msg p{
     font-size: 16px;
     font-family: sans-serif;
-}
+} */
 
-.container2 {
+/* .container2 {
     overflow: hidden;
     padding: 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 10%;
-}
+} */
 
-.column2 {
+/* .column2 {
     display: inline-block;
     height: auto;
     padding-bottom: 2%;
     width: 100%;
     padding: 1%;
-}
+} */
 
 .final-container p{
     text-transform: uppercase;
@@ -349,7 +367,7 @@ nav ul li a:hover{
     width: 500%;
     margin: 0;
     left: 0;
-    animation: 12s slider infinite;
+    animation: 20s slider infinite;
 }
 
 .slider2 section .testomonial-1{
@@ -419,7 +437,7 @@ ul {
     background-color: red;
     height: 2px;
     box-sizing: border-box;
-    width: 50px;
+    width: 80%;
 }
 
 .footer-col ul li {
@@ -448,7 +466,7 @@ ul {
         width: 50%;
         margin-bottom: 30px;
     }
-    .container2 {
+    .margin {
         display: inline;
     }
 }

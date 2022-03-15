@@ -62,8 +62,9 @@ nav .menu-btn i{
 .sub-menu{
     display: none;
     font-size: 20px;
-    margin: 1.1%;
-    padding: 1% 0 1% 0;
+    padding: 4%;
+    right: 100px;
+    border-style: solid;
 }
 .nav-links ul li:hover .sub-menu{
     display: inline-block;
@@ -82,7 +83,7 @@ nav .menu-btn i{
 @media (max-width: 960px) {
     .nav-links{
         position: absolute;
-        top: 9.5%;
+        top: 9%;
         right: -100%;
         background: white;
         z-index: 2;
@@ -198,7 +199,6 @@ section{
     cursor: pointer;
     border-radius: 3px;
     position: relative;
-    z-index: 99;
 }
 .wrap .tab label{
     background: rgb(235, 233, 233);

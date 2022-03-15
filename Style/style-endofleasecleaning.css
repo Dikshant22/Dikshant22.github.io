@@ -92,7 +92,7 @@ nav .menu-btn i{
 @media (max-width: 960px) {
     .nav-links{
         position: absolute;
-        top: 9.5%;
+        top: 9%;
         right: -100%;
         background: white;
         /* text-align: right; */
@@ -142,36 +142,26 @@ nav .menu-btn i{
 }
 .centered {
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 30%;
-    transform: translate(-50%, -50%);
 }
 .centered p{
     font-size: 50px;
     font-family: serif;
     text-transform: uppercase;
 }
-@media (max-width: 600px){
-    .centered p{
-        font-size: 35px;
-    }
-}
-@media (max-width: 300px){
-    .centered p{
-        font-size: 25px;
-    }
-}
+
 .whole{
-    margin: 2% 20% 0% 20%;
+    margin: 2% 10%;
 }
 .txt{
     text-align: center;
 }
 .txt p{
-    font-size: 17px;
+    font-size: 19px;
     letter-spacing: 1px;
     word-spacing: 1px;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 1%;
     opacity: 0.9;
 }
@@ -192,27 +182,41 @@ nav .menu-btn i{
 .img-txt img{
     padding: 0 5%;
 }
+.img{
+    height: 180px;
+}
+.one{
+    padding-top: 10%;
+}
+.three{
+    padding-top: 19%;
+}
+.four{
+    padding-top: 5%;
+}
+.three-img{
+    display: flex;
+}
 .column {
-    display: block;
-    padding: 3%;
-    text-align: center;
+    flex: 33.33%;
+    padding: 5% 3%;
 }
 .column a img {
       max-width: 90%;
       height: auto;
 }
 h1{
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 550;
     text-transform: uppercase;
     font-family: serif;
     padding: 1%;
 }
 .text-overlay ul li{
-    word-spacing: 2px;
-    font-size: 20px;
-    padding: 1px;
-    letter-spacing: 1px;
+
+    font-size: 18px;
+    padding: 2%;
+    list-style: outside;
 }
 .quote1{
     text-align: center;
@@ -303,7 +307,10 @@ ul {
 .hover-effect ul a:hover{
     text-decoration: none;
 }
-
+.bottom-footer{
+    text-align: center;
+    padding-top: 2%;
+}
 /* responsive */
 @media(max-width: 960px){
     .footer-col {
@@ -318,8 +325,41 @@ ul {
         display: inline-block;
     }
 }
-
-.bottom-footer{
-    text-align: center;
-    padding-top: 2%;
+@media (max-width: 600px){
+    .centered p{
+        font-size: 28px;
+    }
+    .icon-txt span{
+        font-size: 40px;
+    }
+    .icon-txt p{
+        font-size: 18px;
+    }
+    .whole{
+        margin: 2% 5%;
+    }
+    .centered{
+        left: 5%;
+    }
+    .icon-txt{
+        padding-bottom: 30%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .text-overlay ul li{
+        font-size: 18px;
+        word-spacing: normal;
+        letter-spacing: normal;
+        padding: 2% 0%;
+    }
+    .column{
+        padding: 10% 0%;
+    }
+}
+@media (max-width: 300px){
+    .centered p{
+        font-size: 25px;
+    }
+    
 }

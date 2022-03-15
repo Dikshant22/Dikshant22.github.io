@@ -92,7 +92,7 @@ nav .menu-btn i{
 @media (max-width: 960px) {
     .nav-links{
         position: absolute;
-        top: 9.5%;
+        top: 9%;
         right: -100%;
         background: white;
         /* text-align: right; */
@@ -168,43 +168,49 @@ nav .menu-btn i{
 }
 .txt p{
     font-size: 25px;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
     word-spacing: 1px;
 }
 .container{
     text-align: center;
 }
-.logo-1{
-    margin: 0 15% 0 15%;
+
+.container2, .five-img {
+    margin: 1% 10%;
+    display: flex;
 }
+/* .logo-1{
+    margin: 0 15%;
+} */
 .logo-text p{
     padding-top: 5%;
     font-family: sans-serif;
 }
 .logo-text{
-    display: inline-block;
-    padding: 0% 10% 5% 5%;
-    height: auto;
-    width:30%;
+    flex: 10%;
+    padding: 2%;
+    text-align: center;
 }
 
-@media(max-width: 1000px){
-    .logo-text{
-        display: inline-block;
-        height: auto;
-        width:40%;
-    }
-}
+
+
 @media(max-width: 500px){
-    .logo-text{
-        display: grid;
-        padding-left: 30%;
-        height: auto;
-        width:30%;
+    .five-img, .container{
+        display: block;
     }
     .centered p{
         font-size: 30px;
+    }
+    .logo-text{
+        text-align: center;
+        padding: 3%;
+    }
+    .txt p{
+        font-size: 20px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 1px;
     }
 }
 .quote1{

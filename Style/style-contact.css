@@ -84,7 +84,7 @@ nav .menu-btn i{
     
     .nav-links{
         position: absolute;
-        top: 9.5%;
+        top: 9%;
         right: -100%;
         background: white;
         z-index: 2;
@@ -133,8 +133,8 @@ nav .menu-btn i{
 }
 .centered {
     position: absolute;
-    top: 70%;
-    left: 30%;
+    top: 20%;
+    left: 20%;
     transform: translate(-50%, -50%);
 }
 .centered p{
@@ -377,7 +377,7 @@ ul {
     background-color: red;
     height: 2px;
     box-sizing: border-box;
-    width: 50px;
+    width: 70%;
 }
 
 .footer-col ul li {
