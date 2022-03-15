@@ -64,7 +64,6 @@ nav .menu-btn i{
     font-size: 20px;
     padding: 4%;
     right: 100px;
-    border-style: solid;
 }
 .nav-links ul li:hover .sub-menu{
     display: inline-block;
@@ -177,84 +176,73 @@ nav .menu-btn i{
 .word:hover{
     background-color: rgb(183, 223, 209);
 }
-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.wrapper{
-    padding: 0 20px;
-}
-.wrapper .tab{
-    margin-bottom: 8px;
-    border-radius: 3px;
 
+.bg-color{
+    background-color: rgb(188, 221, 235);
+    padding: 2% 15%;
 }
-.wrapper .tab label{
+.accordion{
+    max-width: 100%;
+    padding: 0;
+}
+.accordion .content8x{
+    position: relative;
+    margin: 0 5%;
+    padding: 1%;
+}
+.accordion .content8x .label{
     background: white;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 13px 25px;
     cursor: pointer;
     border-radius: 3px;
     position: relative;
 }
-.wrap .tab label{
+.accordion .content8x .label2{
     background: rgb(235, 233, 233);
+    padding: 13px 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
 }
-.wrapper label span{
+.label p, .label2 p{
     color: black;
     font-size: 22px;
     font-weight: 500;
-
 }
-.wrapper label .icon{
-    position: relative;
-    height: 30px;
-    width: 30px;
-    color: black;
-    font-size: 18px;
-    display: block;
-    border-radius: 50%;
-}
-.tab input:checked ~ label .icon i::before{
-    content: '\f068';
-}
-.wrapper label .icon i{
+.accordion .content8x .label::before, .accordion .content8x .label2::before{
+    content: '+';
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 2%;
 }
-.wrapper .tab .content{
-    max-height: 0;
+.accordion .content8x.active .label::before, .accordion .content8x.active .label2::before{
+    content: '-';
+    font-size: 2rem;
+}
+.accordion .content8x .content{
+    position: relative;
+    height: 0;
     overflow: hidden;
-    transition: all 0.4s ease;
+    transition: 0.2s;
+    overflow-y: auto;
 }
-.tab input:checked ~ .content{
-    max-height: 100vh;
-
-}
-.wrapper .tab .content p{
+.content p{
     font-size: 20px;
     padding: 15px 20px;
     background: rgb(228, 238, 243);
 }
-.wrapper .tab .new p{
-    background: white;
+.new p{
+    background: rgb(243, 246, 247);
 }
-.wrapper input{
-    display: none;
+.accordion .content8x.active .content{
+    height: 100%;
+    padding: 10px;
 }
 .container{
-    width: 100%;
-    margin: 0 auto;
-    max-width: 80rem;
     padding: 2% 15%;
-}
-.bg-color{
-    background-color: rgb(188, 221, 235);
 }
 .footer-container {
     max-width: 1170px;
