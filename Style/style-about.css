@@ -256,6 +256,7 @@ h1{
 .footer-container {
     max-width: 1170px;
     margin: auto;
+
 }
 
 ul {
@@ -313,8 +314,9 @@ ul {
     color: black;
 }
 
-.footer-col ul a:hover{
+.footer-col ul span:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .hover-effect ul a:hover{
