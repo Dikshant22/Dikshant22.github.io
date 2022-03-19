@@ -67,9 +67,8 @@ nav .menu-btn i{
 .sub-menu{
     display: none;
     font-size: 20px;
-    padding: 4%;
-    right: 100px;
-
+    margin: 1.1%;
+    padding: 1% 0 1% 0;
 }
 .nav-links ul li:hover .sub-menu{
     display: inline-block;
@@ -125,6 +124,10 @@ nav .menu-btn i{
         display: block;
         margin-left: -15%;
         background:white;
+    }
+    .sub-menu{
+        padding: 4%;
+        right: 100px;
     }
 } 
 .no-content{
@@ -291,7 +294,7 @@ ul {
     background-color: red;
     height: 2px;
     box-sizing: border-box;
-    width: 50px;
+    width: 70%;
 }
 
 .footer-col ul li {

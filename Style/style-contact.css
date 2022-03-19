@@ -62,8 +62,8 @@ nav .menu-btn i{
 .sub-menu{
     display: none;
     font-size: 20px;
-    padding: 4%;
-    right: 100px;
+    margin: 1.1%;
+    padding: 1% 0 1% 0;
 }
 .nav-links ul li:hover .sub-menu{
     display: inline-block;
@@ -119,7 +119,10 @@ nav .menu-btn i{
         margin-left: -15%;
         background:white;
     }
-    
+    .sub-menu{
+        padding: 4%;
+        right: 100px;
+    }
 } 
 .image-overlay{
     max-height: 80%;
