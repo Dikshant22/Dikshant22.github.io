@@ -29,6 +29,9 @@ nav .quote a{
     height: auto;
     width: 450px;
 }
+nav .logo{
+    width: 40%;
+}
 nav .logo img{
     width: 100%;
 
