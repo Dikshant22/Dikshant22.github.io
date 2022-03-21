@@ -22,12 +22,13 @@ nav .quote a{
     font-weight: 600;
     font-size: 16px;
 }
-nav .logo{
-    position: relative;
+.logo{
+    height: auto;
+    width: 450px;
 }
 nav .logo img{
-    height: auto;
-    width: 80%;
+    width: 100%;
+
 }
 nav ul{
     display: flex;
@@ -79,7 +80,7 @@ nav .menu-btn i{
 .quote a:hover {
     color: black;
 }
-@media (max-width: 960px) {
+@media (max-width: 1060px) {
     .nav-links{
         position: absolute;
         top: 9%;
@@ -273,7 +274,7 @@ ul {
 
 .footer-row img{
     height: auto;
-    width: 80%;
+    width: 450px;
 }
 
 .footer-col h4 {
@@ -300,7 +301,7 @@ ul {
 }
 
 .footer-col ul li a, .footer-col ul li p{
-    font-size: 14px;
+    font-size: 18px;
     font-family: sans-serif;
     font-weight: 300;
     transition: all 0.3s ease;

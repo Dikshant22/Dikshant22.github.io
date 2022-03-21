@@ -25,12 +25,12 @@ nav .quote a{
     font-weight: 600;
     font-size: 16px;
 }
-nav .logo{
-    position: relative;
+.logo{
+    height: auto;
+    width: 450px;
 }
 nav .logo img{
-    height: auto;
-    width: 80%;
+    width: 100%;
 
 }
 nav ul{
@@ -82,7 +82,7 @@ nav ul li a:hover{
 #click{
     display: none;
 }
-@media (max-width: 960px) {
+@media (max-width: 1060px) {
     .nav-links{
         position: absolute;
         top: 9%;
@@ -192,10 +192,13 @@ nav ul li a:hover{
 
 .text-overlay {
     text-align: center;
-    font-weight: bold;
+
     color: black;
 }
-
+.text-overlay p{
+    font-size: 19px;
+    font-weight: 600;
+}
 .text-overlay p:hover{
     text-decoration: underline;
 }
@@ -382,7 +385,7 @@ ul {
 
 .footer-row img{
     height: auto;
-    width: 80%;
+    width: 450px;
 }
 
 .footer-col h4 {
@@ -411,7 +414,7 @@ ul {
 
 .footer-col ul li a, .footer-col ul li p{
     color: black;
-    font-size: 14px;
+    font-size: 18px;
     font-family: sans-serif;
     font-weight: 300;
     /* display: block; */
