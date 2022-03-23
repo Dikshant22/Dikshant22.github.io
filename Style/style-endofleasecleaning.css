@@ -189,14 +189,12 @@ nav .menu-btn i{
     height: 180px;
 }
 .one{
-    padding-top: 10%;
+    padding-top: 3%;
 }
-.three{
-    padding-top: 19%;
+.two{
+    padding-top: 8%;
 }
-.four{
-    padding-top: 5%;
-}
+
 .three-img{
     display: flex;
 }

@@ -163,27 +163,32 @@ nav .menu-btn i{
     padding: 2% 2% ;
 }
 .img{
-    height: 35%;
+    height: 40%;
+}
+.logo-text img{
+    color: gray;
 }
 .one{
-    padding-top: 10%;
+    padding-top: 15%;
 }
 /* .two{
     padding-top: 8%;
 
-}
-.three{
-    padding-top: 13%;
 } */
+.three{
+    padding-top: 7%;
+}
 .container {
     overflow: hidden;
     text-align: center;
 }
-.container2, .four-img {
+.container2 {
     margin: 1% 10%;
     display: flex;
 }
-  
+.four-img {
+    display: flex;
+}
 .column img {
     text-align: center;
 }
@@ -218,12 +223,16 @@ h1{
     padding-top: 5%;
     font-family: sans-serif;
 }
-@media(max-width: 500px){
+@media(max-width: 800px){
     .logo-1{
         margin: 0;
     }
     .four-img, .container2{
         display: block;
+    }
+    .two{
+    padding-top: 10%;
+
     }
     .centered p{
         font-size: 30px;
