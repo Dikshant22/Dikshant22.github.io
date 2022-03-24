@@ -19,7 +19,6 @@ nav .quote a{
     background-color: rgb(34, 34, 177);
     padding: 4px;
     color: white;
-
     font-weight: 600;
     font-size: 16px;
 }
@@ -124,6 +123,9 @@ nav .menu-btn i{
     .sub-menu{
         padding: 4%;
         right: 100px;
+    }
+    .logo{
+        width: 350px;
     }
 } 
 .image-overlay{
@@ -268,10 +270,10 @@ ul {
 .footer-row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .footer-col {
-    width: 18%;
     padding: 0 15px;
 }
 
@@ -281,23 +283,14 @@ ul {
 }
 
 .footer-col h4 {
-    font-size: 18px;
+    font-size: 24px;
     text-transform: capitalize;
     margin-bottom: 30px;
     font-weight: 800;
     position: relative;
 }
 
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: red;
-    height: 2px;
-    box-sizing: border-box;
-    width: 70%;
-}
+
 
 .footer-col ul li {
     margin-bottom: 7px;
@@ -332,7 +325,6 @@ ul {
 /* responsive */
 @media(max-width: 960px){
     .footer-col {
-        width: 50%;
         margin-bottom: 30px;
     }
     .footer-row img{
@@ -342,14 +334,27 @@ ul {
     .footer-row {
         display: inline-block;
     }
+    .footer-container{
+        text-align: center;
+    }
     .everything{
         display: block;
+        margin: 0 22%;
+    }
+
+}
+@media(max-width: 800px){
+    .everything{
+        margin: 0 19%;
     }
 
 }
 @media(max-width: 660px){
     .google-map iframe{
         width: 100%;
+    }
+    .everything{
+        margin: 0 15%;
     }
 }
 .bottom-footer{
@@ -362,6 +367,9 @@ ul {
     }
     .centered{
         left: 25%;
+    }
+    .everything{
+        margin: 0 8%;
     }
 }
 @media (max-width: 300px){

@@ -84,7 +84,7 @@ nav .menu-btn i{
 .quote a:hover {
     color: black;
 }
-@media (max-width: 1060px) {
+@media (max-width: 960px) {
     .nav-links{
         position: absolute;
         top: 22.5%;
@@ -93,6 +93,10 @@ nav .menu-btn i{
         display: none;
         z-index: 2;
 
+    }
+    .logo{
+        width: 350px;
+        margin-right: 5px;
     }
     nav ul li{
         margin: 15% 0;
@@ -117,7 +121,8 @@ nav .menu-btn i{
     }
     nav .quote a{
         display: inline-block;
-        margin-right: 50%;
+        margin-right: 30%;
+        font-size: 14px;
     }
     .nav-links ul li:hover .sub-menu{
         display: block;
@@ -246,7 +251,8 @@ h1{
   }
   
 .button:hover {
-    opacity: 0.9;
+    box-shadow: 0 12px 16px 0 rgba(37, 10, 87, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #030420;
 }
 .footer-container {
     max-width: 1170px;
@@ -265,36 +271,26 @@ ul {
 .footer-row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .footer-col {
-    width: 18%;
     padding: 0 15px;
 }
 
 .footer-row img{
     height: auto;
-    width: 450px;
+    width: 350px;
 }
 
 .footer-col h4 {
-    font-size: 18px;
+    font-size: 24px;
     text-transform: capitalize;
     margin-bottom: 30px;
     font-weight: 800;
     position: relative;
 }
 
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: red;
-    height: 2px;
-    box-sizing: border-box;
-    width: 70%;
-}
 
 .footer-col ul li {
     margin-bottom: 7px;
@@ -320,7 +316,6 @@ ul {
 /* responsive */
 @media(max-width: 960px){
     .footer-col {
-        width: 50%;
         margin-bottom: 30px;
     }
     .footer-row img{
@@ -329,6 +324,9 @@ ul {
     }
     .footer-row {
         display: inline-block;
+    }
+    .footer-container{
+        text-align: center;
     }
 }
 
