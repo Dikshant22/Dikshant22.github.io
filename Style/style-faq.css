@@ -24,7 +24,8 @@ nav .quote a{
     font-size: 16px;
 }
 .logo{
-    width: 350px;
+    width: 450px;
+    height: auto;
 }
 nav .logo img{
     width: 100%;
@@ -123,6 +124,7 @@ nav .menu-btn i{
         padding: 4%;
         right: 100px;
     }
+    
 } 
 .image-overlay{
     max-height: 80%;
@@ -320,6 +322,9 @@ ul {
     }
     .footer-container{
         text-align: center;
+    }
+    .logo{
+        width: 350px;
     }
 }
 

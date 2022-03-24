@@ -124,9 +124,7 @@ nav .menu-btn i{
         padding: 4%;
         right: 100px;
     }
-    .logo{
-        width: 350px;
-    }
+    
 } 
 .image-overlay{
     max-height: 80%;
@@ -237,6 +235,9 @@ form .button-area{
     .button-area span{
         text-align: center;
         margin: 20px 0;
+    }
+    .logo{
+        width: 350px;
     }
 }
 .main{

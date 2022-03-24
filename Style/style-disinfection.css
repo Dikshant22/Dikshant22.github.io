@@ -21,7 +21,6 @@ nav .quote a{
     background-color: rgb(34, 34, 177);
     padding: 4px;
     color: white;
-
     font-weight: 600;
     font-size: 16px;
 }
@@ -92,7 +91,6 @@ nav .menu-btn i{
         top: 9.5%;
         right: -100%;
         background: white;
-        /* text-align: right; */
         z-index: 2;
         display: none;
     }
@@ -119,7 +117,8 @@ nav .menu-btn i{
     }
     nav .quote a{
         display: inline-block;
-        margin-right: 50%;
+        margin-right: 30%;
+        font-size: 14px;
     }
     .nav-links ul li:hover .sub-menu{
         display: block;
@@ -130,6 +129,7 @@ nav .menu-btn i{
         padding: 4%;
         right: 100px;
     }
+    
 } 
 .no-content{
     width: 100%;
@@ -267,36 +267,26 @@ ul {
 .footer-row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .footer-col {
-    width: 18%;
     padding: 0 15px;
 }
 
 .footer-row img{
     height: auto;
-    width: 450px;
+    width: 350px;
 }
 
 .footer-col h4 {
-    font-size: 18px;
+    font-size: 24px;
     text-transform: capitalize;
     margin-bottom: 30px;
     font-weight: 800;
     position: relative;
 }
 
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: red;
-    height: 2px;
-    box-sizing: border-box;
-    width: 70%;
-}
 
 .footer-col ul li {
     margin-bottom: 7px;
@@ -321,7 +311,6 @@ ul {
 /* responsive */
 @media(max-width: 960px){
     .footer-col {
-        width: 50%;
         margin-bottom: 30px;
     }
     .footer-row img{
@@ -331,11 +320,17 @@ ul {
     .footer-row {
         display: inline-block;
     }
+    .footer-container{
+        text-align: center;
+    }
     .float-img img{
         float: none;
     }
     .float-img{
         padding: 5%;
+    }
+    nav .logo{
+        width: 350px;
     }
 }
 

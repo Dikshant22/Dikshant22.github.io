@@ -87,7 +87,7 @@ nav .menu-btn i{
 .quote a:hover {
     color: black;
 }
-@media (max-width: 960px) {
+@media (max-width: 1060px) {
     .nav-links{
         position: absolute;
         top: 9%;

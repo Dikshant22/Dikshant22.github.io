@@ -81,7 +81,7 @@ nav .menu-btn i{
 .quote a:hover {
     color: black;
 }
-@media (max-width: 960px) {
+@media (max-width: 1060px) {
     .nav-links{
         position: absolute;
         top: 9%;
@@ -124,10 +124,6 @@ nav .menu-btn i{
         padding: 4%;
         right: 100px;
     }
-    .logo{
-        width: 350px;
-    }
-    
 } 
 .image-overlay{
     max-height: 80%;
@@ -348,6 +344,9 @@ ul {
     }
     .footer-container{
         text-align: center;
+    }
+    .logo{
+        width: 350px;
     }
 }
 
